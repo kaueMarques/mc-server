@@ -1,0 +1,93 @@
+[19:47:13] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[19:47:13] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Identificador inválido
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_211]
+	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_211]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284) ~[?:1.8.0_211]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345) ~[?:1.8.0_211]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:1.8.0_211]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:1.8.0_211]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:1.8.0_211]
+	at java.io.InputStreamReader.read(InputStreamReader.java:184) ~[?:1.8.0_211]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:1.8.0_211]
+	at java.io.BufferedReader.readLine(BufferedReader.java:324) ~[?:1.8.0_211]
+	at java.io.BufferedReader.readLine(BufferedReader.java:389) ~[?:1.8.0_211]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:97) [lv.class:?]
+[19:47:17] [Server thread/INFO]: Loading properties
+[19:47:17] [Server thread/INFO]: Default game type: SURVIVAL
+[19:47:17] [Server thread/INFO]: Generating keypair
+[19:47:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:47:19] [Server thread/WARN]: Failed to load user banlist: 
+java.io.FileNotFoundException: banned-players.json (O sistema não pode encontrar o arquivo especificado)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_211]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_211]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_211]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[om.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_152620_y(SourceFile:99) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:25) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+[19:47:19] [Server thread/WARN]: Failed to load ip banlist: 
+java.io.FileNotFoundException: banned-ips.json (O sistema não pode encontrar o arquivo especificado)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_211]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_211]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_211]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[om.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_152619_x(SourceFile:91) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:27) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+[19:47:19] [Server thread/WARN]: Failed to load operators list: 
+java.io.FileNotFoundException: ops.json (O sistema não pode encontrar o arquivo especificado)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_211]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_211]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_211]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[om.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_72417_t(SourceFile:107) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:29) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+[19:47:19] [Server thread/WARN]: Failed to load white-list: 
+java.io.FileNotFoundException: whitelist.json (O sistema não pode encontrar o arquivo especificado)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_211]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_211]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_211]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[guava-17.0.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:124) ~[om.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_72418_v(SourceFile:123) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:30) [ls.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:211) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+[19:47:19] [Server thread/INFO]: Preparing level "world"
+[19:47:21] [Server thread/INFO]: Preparing start region for level 0
+[19:47:22] [Server thread/INFO]: Preparing spawn area: 5%
+[19:47:23] [Server thread/INFO]: Preparing spawn area: 8%
+[19:47:24] [Server thread/INFO]: Preparing spawn area: 14%
+[19:47:25] [Server thread/INFO]: Preparing spawn area: 21%
+[19:47:26] [Server thread/INFO]: Preparing spawn area: 27%
+[19:47:27] [Server thread/INFO]: Preparing spawn area: 35%
+[19:47:28] [Server thread/INFO]: Preparing spawn area: 41%
+[19:47:29] [Server thread/INFO]: Preparing spawn area: 49%
+[19:47:30] [Server thread/INFO]: Preparing spawn area: 56%
+[19:47:31] [Server thread/INFO]: Preparing spawn area: 62%
+[19:47:32] [Server thread/INFO]: Preparing spawn area: 68%
+[19:47:33] [Server thread/INFO]: Preparing spawn area: 74%
+[19:47:34] [Server thread/INFO]: Preparing spawn area: 78%
+[19:47:35] [Server thread/INFO]: Preparing spawn area: 85%
+[19:47:36] [Server thread/INFO]: Preparing spawn area: 89%
+[19:47:37] [Server thread/INFO]: Preparing spawn area: 93%
+[19:47:38] [Server thread/INFO]: Preparing spawn area: 97%
+[19:47:39] [Server thread/INFO]: Done (19,408s)! For help, type "help" or "?"
+[19:47:41] [Server thread/INFO]: Stopping server
+[19:47:41] [Server thread/INFO]: Saving players
+[19:47:41] [Server thread/INFO]: Saving worlds
+[19:47:41] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[19:47:44] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[19:47:44] [Server thread/INFO]: Saving chunks for level 'world'/The End
